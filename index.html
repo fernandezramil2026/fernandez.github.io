@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Web Developer & Network Specialist</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="bg-glow blob-1"></div>
+  <div class="bg-glow blob-2"></div>
+
+  <nav class="navbar">
+    <div class="logo">FERNANDEZ PORTFOLIO<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="hero-section">
+    <div class="hero-card">
+      <div class="profile-badge">Welcome to my workspace</div>
+      <h1>Hi, I'm <span class="highlight">Ramil Fernandez Jr.</span></h1>
+      <p class="subtitle"> Junior Web Developer & Junior Network Engineer</p>
+      <p class="bio">
+        Aspiring Junior Web Developer & Junior Network Engineer.
+Passionate senior IT student designing and building modern web applications alongside configured network topologies and security layouts.
+      </p>
+
+      <div class="hero-actions">
+        <div class="social-links">
+          <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <a href="assets/resume.pdf" download class="btn btn-primary resume-btn">
+          <i class="fas fa-download"></i> Download Resume / CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+
+    <div class="category-tabs">
+      <button class="tab-btn active" data-category="web">
+        <i class="fas fa-code"></i> Web Development
+      </button>
+      <button class="tab-btn" data-category="network">
+        <i class="fas fa-network-wired"></i> Networking
+      </button>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card" data-category="web">
+        <div class="card-inner">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Web Project 1">
+            <div class="badge">Web Dev</div>
+          </div>
+          <div class="card-content">
+            <h3>WS Students Lounge System</h3>
+            <p>A modern management system dashboard built for managing memberships, reservations, and analytics.</p>
+            <div class="tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+            </div>
+            <div class="card-actions">
+              <a href="https://your-live-demo-link.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+              <a href="https://github.com/yourusername/ws-students-lounge" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="web">
+        <div class="card-inner">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Web Project 2">
+            <div class="badge">Web Dev</div>
+          </div>
+          <div class="card-content">
+            <h3>CSWIMS Portal</h3>
+            <p>City Social Welfare Information Management System built with interactive wireframing and modular UI layouts.</p>
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>UI/UX</span>
+              <span>Wireframing</span>
+            </div>
+            <div class="card-actions">
+              <a href="https://your-live-demo-link.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+              <a href="https://github.com/yourusername/cswims-portal" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card hidden" data-category="network">
+        <div class="card-inner">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80" alt="Network Infrastructure">
+            <div class="badge network-badge">Networking</div>
+          </div>
+          <div class="card-content">
+            <h3>Enterprise Campus Topology</h3>
+            <p>Multi-VLAN Cisco Packet Tracer design featuring OSPF routing, STP configuration, and inter-VLAN routing.</p>
+            <div class="tags">
+              <span>Packet Tracer</span>
+              <span>Cisco</span>
+              <span>VLAN / OSPF</span>
+            </div>
+            <div class="card-actions network-actions">
+              <a href="assets/enterprise-network.pkt" download class="btn btn-secondary">
+                <i class="fas fa-download"></i> Download .PKT
+              </a>
+              <a href="assets/network-design1.png" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fas fa-image"></i> Diagram
+              </a>
+              <a href="https://github.com/yourusername/enterprise-campus-topology" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card hidden" data-category="network">
+        <div class="card-inner">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80" alt="Network Security Design">
+            <div class="badge network-badge">Networking</div>
+          </div>
+          <div class="card-content">
+            <h3>Corporate Firewall & DMZ Setup</h3>
+            <p>Packet Tracer topology showcasing ASA Firewall rules, DMZ isolation, and DHCP/DNS server configurations.</p>
+            <div class="tags">
+              <span>Packet Tracer</span>
+              <span>ASA Firewall</span>
+              <span>Security</span>
+            </div>
+            <div class="card-actions network-actions">
+              <a href="assets/corporate-firewall.pkt" download class="btn btn-secondary">
+                <i class="fas fa-download"></i> Download .PKT
+              </a>
+              <a href="assets/network-design2.png" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fas fa-image"></i> Diagram
+              </a>
+              <a href="https://github.com/yourusername/corporate-firewall-dmz" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="contact-card">
+      <div class="contact-content">
+        <h2>Have a project in mind?</h2>
+        <p class="contact-intro">
+          Whether it's a network infrastructure project, a web development concept, or a 
+          collaborative IT solution—I'd love to connect. Drop me a message and let's build 
+          something great together.
+        </p>
+
+        <div class="contact-details">
+          <a class="contact-detail" href="mailto:darwencharles169@gmail.com">
+            <span class="contact-detail-icon"><i class="fas fa-envelope"></i></span>
+            <span>
+              <span class="contact-label">Email</span>
+              <strong class="email-value">limar08042026@gmail.com</strong>
+            </span>
+          </a>
+          <div class="contact-detail">
+            <span class="contact-detail-icon"><i class="fas fa-location-dot"></i></span>
+            <span>
+              <span class="contact-label">Location</span>
+              <strong>Iloilo City, Philippines</strong>
+            </span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon"><i class="fas fa-check-circle"></i></span>
+            <span>
+              <span class="contact-label">Status</span>
+              <strong class="status-text">Open for freelance &amp; collabs</strong>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-social-links" aria-label="Social media links">
+          <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="contact-social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="contact-social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="contact-social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Crafted with precision. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
