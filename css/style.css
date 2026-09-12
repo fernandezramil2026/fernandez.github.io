@@ -423,8 +423,8 @@ body {
 
 .contact-details {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem;
   margin-bottom: 1.75rem;
 }
 
@@ -470,7 +470,6 @@ body {
 }
 
 .email-value {
-  white-space: nowrap;
   font-size: 0.8rem !important;
 }
 
